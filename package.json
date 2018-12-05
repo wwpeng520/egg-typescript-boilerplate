@@ -1,5 +1,5 @@
 {
-  "name": "weapp-guitar-rest",
+  "name": "egg-typescript-boilerplate",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -7,8 +7,8 @@
     "typescript": true
   },
   "scripts": {
-    "start": "NODE_ENV=production egg-scripts start --port=65000 --daemon --title=egg-server-weapp-guitar-rest",
-    "stop": "egg-scripts stop --title=egg-server-weapp-guitar-rest",
+    "start": "NODE_ENV=production egg-scripts start --port=65000 --daemon --title=egg-server-egg-typescript-boilerplate",
+    "stop": "egg-scripts stop --title=egg-server-egg-typescript-boilerplate",
     "dev": "egg-bin dev -r egg-ts-helper/register --port=65000",
     "debug": "egg-bin debug -r egg-ts-helper/register",
     "build": "./node_modules/.bin/tsc",
