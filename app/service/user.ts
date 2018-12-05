@@ -14,7 +14,7 @@ export default class User extends Service {
             encrypted: this.ctx.helper.encrypt(password),
             phone,
             name: phone,
-            avatar: 'http://xfqcdn.gootile.com/avatar.png',
+            avatar: '',
             status: 1,
             lastLogin: moment().toDate(),
         });
